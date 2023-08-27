@@ -5,7 +5,12 @@ import arrowDownCircle1 from '../assets/arrowDownCircle1.svg';
 
 const Menu = () => {
 
-    const menuArray = ['Home', 'Services', 'About us', 'Recall'];
+    const menuArray = [
+        { id: 2, title: 'Home' },
+        { id: 1, title: 'Services' },
+        { id: 1, title: 'About us' },
+        { id: 1, title: 'Recall' },
+    ];
     const rectangle7 = [
         { serviceTitle: 'Service Type', iconTitle: arrowDownCircle1 },
         { serviceTitle: 'Select Date', iconTitle: calender1 }]
@@ -21,7 +26,7 @@ const Menu = () => {
             <div className='item-menu'>
                 {
                     menuArray.map((item) => {
-                        return <span className="menu">{item} </span>
+                        return <span className={`menu ${item.id === 2 ? 'menu-special' : ''}`}>{item.title} </span>
                     })
                 }
             </div>
@@ -38,8 +43,10 @@ const Menu = () => {
                 <p>and not only, 97% of our customers are satisfied </p>
             </div>
 
+
         </div>
         <div className="polygon">
+            <div className="see-details-content-menu">See Details</div>
             <img className='img1' src="/bodyBgImg1.png" alt="My Image" />
             <div class="diagonal-line1">
                 <div className="content1"></div>
@@ -60,10 +67,10 @@ const Menu = () => {
                 rectangle7.map((item, index) => {
                     const itemId = `item-${index}`
                     return (
-                    <div id= {itemId}>
-                        <div className='service-title'>{item.serviceTitle}</div>
-                        <div className='icon-title'><img src={item.iconTitle} alt="picture" />  </div>
-                    </div>
+                        <div id={itemId}>
+                            <div className='service-title'>{item.serviceTitle}</div>
+                            <div className='icon-title'><img src={item.iconTitle} alt="picture" />  </div>
+                        </div>
                     )
                 })
             }

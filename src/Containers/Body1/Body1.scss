@@ -1,6 +1,4 @@
-* {
-    margin: 0 auto;
-}
+
 
 .body-container {
     position: relative;
@@ -40,11 +38,13 @@
 }
 
 .item-container {
-    display: flex;
     position: absolute;
-    width: 220px;
-    margin-top: 380px;
-    margin-left: 255px;
+    left: 239px;
+    top: 380px;
+    width: 982px;
+    height: 412px;
+    display: flex;
+    
 }
 
 .items img {
@@ -69,7 +69,7 @@
     /* 57.6px */
 }
 
-.item-content {
+.item-content-body1 {
     width: 220px;
     height: 128px;
     color: #8A98A6;
@@ -212,7 +212,7 @@
     display: flex;
     width: 661px;
     height: 477px;
-    
+
 }
 
 .top-title {

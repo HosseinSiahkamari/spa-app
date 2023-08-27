@@ -1,0 +1,151 @@
+.container {
+    position: relative;
+    width: 1440px;
+    height: 975px;
+}
+
+.box {
+    position: absolute;
+    width: 1163px;
+    height: 755px;
+    top: 110px;
+    left: 135px;
+}
+
+.feel-free {
+    position: absolute;
+    width: 600px;
+    height: 128px;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    left: 0;
+    z-index: 1;
+}
+
+.original-png {
+    position: absolute;
+    left: 45px;
+    top: 75px;
+    width: 526px;
+    height: 677px;
+    z-index: 0;
+}
+
+.make-an-appointment {
+    position: absolute;
+    left: 713px;
+    top: 7px;
+    width: 388px;
+    height: 58px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #61C1C5;
+
+}
+
+.auth {
+    position: absolute;
+    left: 637px;
+    top: 112px;
+    width: 526px;
+    height: 561px;
+    box-shadow: 0px 20px 70px 0px #00000040;
+}
+
+.input-max {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 110px 110px;
+    grid-gap: 30px;
+    width: 427px;
+    height: 231px;
+}
+
+.input-min {
+    position: relative;
+    width: 200px;
+    height: 110px;
+}
+
+.input-title {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+
+}
+
+.input-box {
+    position: absolute;
+    top: 63px;
+    left: 0;
+    width: 198px;
+    height: 65px;
+    border-radius: 20px;
+    border: 2px solid #64C7CC;
+}
+
+.input-comments {
+    position: absolute;
+    top: 290px;
+    left: 52px;
+    width: 425px;
+    height: 162px;
+}
+
+.input-comments-title {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    width: 99px;
+    height: 32px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.input-comments-box {
+    position: absolute;
+    width: 425px;
+    height: 117px;
+    top: 45px;
+    border: 2px solid #64C7CC;
+    border-radius: 20px;
+
+}
+.see-all-3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 484px;
+    left: 163px;
+    width: 200px;
+    height: 63px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #F6AE2D;
+    border-radius: 39px;
+  }
+  

@@ -29,7 +29,12 @@
 
 .cleaning-text {
   margin-bottom: 12px;
+  font-family: Open Sans;
   font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .item-menu {
@@ -40,13 +45,27 @@
   height: 31.5px;
   margin-left: 415px;
   margin-top: 41px;
+}
+
+.menu {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
   color: #8A98A6;
 }
 
-.item-menu :hover {
-  color: black;
-  border-bottom: 2px solid black;
-  cursor: pointer;
+.menu-special {
+  font-family: Open Sans;
+  border-bottom: 1px solid #8A98A6;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
 }
 
 .rectangle5 {
@@ -61,16 +80,23 @@
 }
 
 .contact-container {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 128px;
-  height: 33px;
+  width: 200px;
+  height: 63px;
   margin: 15px 36px;
   border: 2px solid black;
   color: black;
   border-radius: 39px;
   cursor: pointer;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .contact-container :hover {
@@ -125,6 +151,27 @@
   font-weight: 700;
   font-size: 24px;
   color: #7C868F;
+}
+
+.see-details-content-menu {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  left: 620px;
+  width: 200px;
+  height: 63px;
+  border-radius: 39px;
+  border: 2px solid #FFFFFF;
+  background-color: #F6AE2D;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .img1 {

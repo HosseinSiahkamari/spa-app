@@ -39,7 +39,7 @@ const Body1 = () => {
                     return <div className='items'>
                         <div><img src={item.icon} alt="svg icon" /> </div>
                         <div className='item-title'>{item.title} </div>
-                        <div className='item-content'>{item.content} </div>
+                        <div className='item-content-body1'>{item.content} </div>
                     </div>
                 })}
             </div>
@@ -70,8 +70,12 @@ const Body1 = () => {
                         })
                     }
                 </div>
+
             </div>
+         
+
         </div>
+
 
     </div>);
 }

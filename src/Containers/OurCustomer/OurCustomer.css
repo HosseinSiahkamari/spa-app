@@ -1,0 +1,130 @@
+.our-customer-section {
+  width: 1440px;
+  height: 800px;
+  background-color: #64C7CC;
+}
+
+.our-customer-container {
+  position: relative;
+  width: 1440px;
+  height: 700px;
+  top: 50px;
+  background-color: #279BA3;
+}
+
+.our-customer-love-us {
+  position: absolute;
+  width: 438px;
+  height: 64px;
+  top: 46px;
+  left: 498px;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.customers-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 190px;
+  width: 1161px;
+  height: 444px;
+  background-color: #279BA3;
+}
+
+.custumer-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 367px;
+  height: 366px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.customer-img {
+  position: absolute;
+  top: -85px;
+  left: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 15px solid #279BA3;
+}
+
+.customer-img-special {
+  position: absolute;
+  top: -85px;
+  left: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 15px solid #E5A76E;
+}
+
+.customer-title {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 51.2px */
+}
+
+.customer-content {
+  width: 270px;
+  height: 102px;
+  font-family: Open Sans;
+  font-size: 27px;
+  font-weight: 200;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.customer-stars {
+  position: absolute;
+  top: 315px;
+  display: flex;
+  width: 210px;
+  height: 24px;
+}
+
+.ellipse-2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -90px;
+  left: 590px;
+  height: 120px;
+  width: 120px;
+  z-index: 100;
+}
+
+.ellipse-3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -210px;
+  left: -590px;
+  height: 120px;
+  width: 120px;
+  z-index: 100;
+}
+
+.ellipse-2 img {
+  position: absolute;
+}
+
+.ellipse-3 img {
+  position: absolute;
+}/*# sourceMappingURL=OurCustomer.css.map */

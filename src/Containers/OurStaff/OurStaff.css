@@ -1,0 +1,148 @@
+.ourstaff-section {
+  width: 1445px;
+  height: 700px;
+}
+
+.ourstaff-container {
+  position: relative;
+  top: 83px;
+  width: 1022px;
+  height: 617px;
+}
+
+.text1-ourstaff {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 190px;
+  height: 64px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  /* 64px */
+}
+
+.text2-ourstaff {
+  position: absolute;
+  display: inline-block;
+  top: 64px;
+  width: 694px;
+  height: 64px;
+  color: #8A98A6;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 32px */
+}
+
+.see-all {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0px;
+  width: 200px;
+  height: 63px;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #F6AE2D;
+  border-radius: 39px;
+}
+
+.our-staff-avatar-container {
+  position: absolute;
+  display: flex;
+  width: 1022px;
+  height: 461px;
+  bottom: 0;
+}
+
+.item-avatar {
+  position: relative;
+  width: 298px;
+  height: 461px;
+}
+
+.img-avatar {
+  position: absolute;
+  left: 37.25px;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 225px;
+  height: 224px;
+}
+
+.name-avatar {
+  position: absolute;
+  top: 238px;
+  left: 0;
+  width: 74px;
+  height: 51px;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.star-avatar {
+  position: absolute;
+  top: 249px;
+  left: 211px;
+  width: 30px;
+  height: 28.5px;
+}
+
+.rank-avatar {
+  position: absolute;
+  top: 238px;
+  left: 252px;
+  width: 46px;
+  height: 51px;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.qty-avatar {
+  position: absolute;
+  top: 295px;
+  left: 0;
+  width: 100px;
+  height: 26px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content-avatar {
+  position: absolute;
+  top: 333px;
+  left: 0;
+  width: 298px;
+  height: 128px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8A98A6;
+}/*# sourceMappingURL=OurStaff.css.map */
